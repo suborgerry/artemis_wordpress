@@ -1025,15 +1025,15 @@ input:focus {
 .head_line_button .open {
   opacity: 1;
 }
-.head_line_button.closed .closed {
+.head_line_button.open .closed {
   opacity: 1;
 }
-.head_line_button.closed .closed::after {
+.head_line_button.open .closed::after {
   content: "✕";
   position: relative;
   top: -1px;
 }
-.head_line_button.closed .open {
+.head_line_button.open .open {
   opacity: 0;
 }
 .article-text {

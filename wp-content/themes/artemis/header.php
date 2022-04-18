@@ -32,8 +32,8 @@
     <div class="head_line flex justify-between items-center w-full">
       <?php echo the_custom_logo();?>  
       <button type="button" class="head_line_button" id="menu-button">
-        <img src="./static/images/menu.png" class="open absolute top-0 right-0" alt="close image">
-        <span class="closed"><img src="./static/images/closeoval.png" class="absolute top-0 right-0" alt="close image"></span>
+        <img src="/wp-content/themes/<?php echo $template_name?>/static/images/menu.png" class="open absolute top-0 right-0" alt="close image">
+        <span class="closed"><img src="/wp-content/themes/<?php echo $template_name?>/static/images/closeoval.png" class="absolute top-0 right-0" alt="close image"></span>
       </button>
       <div class="header_container flex flex-col justify-between w-full items-start bg-white m-auto absolute z-40 px-3">
         <ul class="header_menu_mobile flex flex-col w-full" id="mobile-list">
@@ -96,7 +96,7 @@
             <option class="header_options_languages_item" value="Ukrainian">Ukrainian</option>
             <option class="header_options_languages_item" value="Poland">Poland</option>
           </select>
-          <div class="header__search  hover:cursor-pointer"><img src="./static/images/shape.png" alt="search"></div>
+          <div class="header__search  hover:cursor-pointer"><img src="/wp-content/themes/<?php echo $template_name?>/static/images/shape.png" alt="search"></div>
         </div>
       </div>
     </div>
